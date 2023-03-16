@@ -457,6 +457,10 @@ nav ul li a:hover {
     color: #fff;
 }
 
+.about_area .about_thumb .served_over h3{
+    color: #fff;
+}
+
 .about_area .about_thumb .served_over p {
     margin-bottom: 0;
     color: #fff;
