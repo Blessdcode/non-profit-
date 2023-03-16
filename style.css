@@ -124,26 +124,12 @@ header {
     height: 1000px;
     width: 100%;
     background-image: linear-gradient(rgb(79 9 9 / 62%), rgb(58 6 6 / 82%)), url(img/banner/1.png);
-    /* background-image: url(img/banner/1.png); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
-    /* z-index: 100; */
-    /* background: #450000;
-    background-blend-mode: overlay; */
 }
-
-/* .header-area {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: transparent;
-    z-index: 999;
-} */
 
 header::after {
     position: absolute;
@@ -223,25 +209,6 @@ nav ul li a:hover {
     display: none;
 }
 
-/* 
-#menuIcon::after{
-    content: "";
-    width: 40px;
-    height: 4px;
-    background: #fff;
-    position: absolute;
-    top: 7px;
-}
-
-#menuIcon::before{
-    content: "";
-    width: 40px;
-    height: 4px;
-    background: #fff;
-    position: absolute;
-    bottom: 7px;
-} */
-
 .donate_now .btn {
     color: #fff;
     display: inline-block;
@@ -265,49 +232,6 @@ nav ul li a:hover {
     padding: 0 12vw;
     /* min-width: 45rem; */
 }
-
-/* <!-- slider_area_start --> */
-/* .slider_bg_1 {
-    background-image: url(img/banner/1.png);
-
-}
-
-.slider_area {
-    height: 100vh;
-    position: relative;
-    z-index: 8;
-    position: relative;
-    z-index: 8;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    top: -13rem;
-}
-
-.slider_area::before {
-    position: absolute;
-    content: "";
-    background: #450000;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    opacity: .8;
-}
-
-.slider_area::after {
-    position: absolute;
-    content: "";
-    background: #fff;
-    width: 100%;
-    height: 150px;
-    left: 0;
-    bottom: -70px;
-    -webkit-transform: skewY(3deg);
-    -ms-transform: skewY(3deg);
-    transform: skewY(3deg);
-    z-index: 99;
-} */
 
 .slider_text {
     padding-top: 18rem;
